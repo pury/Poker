@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="452" height="112" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="ly_table_head_bg_small_png" y="4" x="3"/>
+	<e:UIAsset id="UIA_role" name="UIA_role" source="ly_table_head_big_png" y="45" x="17"/>
+	<e:Label id="label_status" text="爱丽丝女王" size="22" textAlign="center" name="label_status" width="120" x="6" textColor="0x14A1F3" fontFamily="微软雅黑" stroke="1" y="7"/>
+	<e:Label id="label_coin" text="2234134" width="67" textAlign="center" name="label_coin" size="14" y="48" textColor="0x14A1F3" fontFamily="微软雅黑" x="67" height="24"/>
+	<e:UIAsset id="UIA_bet" source="ly_table_blue_chip_png" x="291" y="-58"/>
+	<e:Label id="label_bet_num" size="16" width="69" textAlign="center" text="323223" x="322" y="-51"/>
+	<e:Label id="label_card" text="皇家同花顺" size="18" width="100" bold="true" height="26" textColor="0xE8DF35" fontFamily="微软雅黑" y="15" textAlign="left" x="142"/>
+	<e:Group width="126" height="50" id="group_add" x="3" y="62">
+		<e:UIAsset source="ly_table_bg_png" width="126" y="3" height="46" x="0"/>
+		<e:Label id="label_add" horizontalCenter="0" y="16" textColor="0xFAF107" text="+123123" textAlign="center" bold="true" width="126" size="22"/>
+	</e:Group>
+	<e:UIAsset id="UIA_rect" source="ly_table_avatar_png" x="0" y="0"/>
+	<Game:CardNew id="gc_left" x="262" skinName="skins.component.ItemRenderCardNewSkin" verticalCenter="0"/>
+	<Game:CardNew id="gc_right" skinName="skins.component.ItemRenderCardNewSkin" x="355" verticalCenter="0"/>
+</e:Skin>

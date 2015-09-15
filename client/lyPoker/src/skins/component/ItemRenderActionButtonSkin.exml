@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="121" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="prepare"/>
+	</e:states>
+	<e:UIAsset source="ly_table_main_button_bg_png" x="0" y="-67"/>
+	<Game:ButtonPlus id="btn_left" includeIn="normal" skinName="skins.button.ButtonMainSkin" x="24" y="1" label="让牌"/>
+	<Game:ButtonPlus id="btn_mid" includeIn="normal" skinName="skins.button.ButtonMainSkin" y="1" horizontalCenter="0" label="跟注"/>
+	<Game:ButtonPlus id="btn_right" includeIn="normal" skinName="skins.button.ButtonMainSkin" y="1" label="加注" x="492"/>
+	<Game:ToggleSwitchPlus skinName="skins.component.ToggleSwitchSkin" label="切换按钮" id="ts_left" includeIn="prepare" x="24" y="-6"/>
+	<Game:ToggleSwitchPlus skinName="skins.component.ToggleSwitchSkin" label="切换按钮" id="ts_mid" includeIn="prepare" horizontalCenter="0" y="-6"/>
+	<Game:ToggleSwitchPlus skinName="skins.component.ToggleSwitchSkin" label="切换按钮" id="ts_right" includeIn="prepare" x="478" y="-6"/>
+</e:Skin>

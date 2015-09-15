@@ -1,0 +1,11 @@
+{
+    "name": "scut_net",
+    "dependence": ["core"],
+    "source":"./",
+    "file_list": [
+        "net.js",
+        "action.js",
+        "crypto.js",
+        "scut_net.d.ts"
+    ]
+}

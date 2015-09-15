@@ -1,0 +1,7 @@
+{
+    "IP": "127.0.0.1",
+    "PORT": 9898,
+    "LANGUAGE": "EN", 
+    "DEBUG": true,
+    "VERSION": "0.0.1"
+}

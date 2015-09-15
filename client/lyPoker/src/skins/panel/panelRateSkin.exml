@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="1100" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="ly_hall_bg_jpg" x="0" y="0"/>
+	<e:Group height="359" width="672" horizontalCenter="0" y="394">
+		<Game:ButtonRatePlus id="btn_blind1" x="364" y="193" skinName="skins.button.ButtonRateSkin" label="4K" name="btn_blind1"/>
+		<Game:ButtonRatePlus id="btn_blind2" skinName="skins.button.ButtonRateSkin" x="374" y="203" label="4K" name="btn_blind2"/>
+		<Game:ButtonRatePlus id="btn_blind3" skinName="skins.button.ButtonRateSkin" x="384" y="213" label="4K" name="btn_blind3"/>
+		<Game:ButtonRatePlus id="btn_blind4" skinName="skins.button.ButtonRateSkin" x="394" y="223" label="4K" name="btn_blind4"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="56" verticalGap="26"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="btn_back" name="btn_back" label="·µ»Ø" skinName="skins.button.ButtonBackSkin" y="39" x="47"/>
+	<e:UIAsset source="ly_hall_choice_png" horizontalCenter="0" y="189"/>
+	<e:Button skinName="skins.button.ButtonShopSkin" id="btn_shop" label="É̳Ç" name="btn_shop" x="60" y="982"/>
+	<e:Button skinName="skins.button.ButtonTaskSkin" id="btn_task" label="ÈÎÎñ" name="btn_task" x="234" y="979"/>
+	<e:Button skinName="skins.button.ButtonFriendSkin" id="btn_social" label="É罻" name="btn_social" x="411" y="979"/>
+	<e:Button skinName="skins.button.ButtonHelpSkin" id="btn_help" label="°ïÖú" name="btn_help" x="588" y="979"/>
+	<e:UIAsset source="ly_shop_4_png" horizontalCenter="0" y="830"/>
+	<Game:ButtonTypePlus id="btn_top_1" skinName="skins.button.ButtonTransparentSkin" x="41" y="180" name="btn_top_1" label="初级"/>
+	<Game:ButtonTypePlus id="btn_top_2" skinName="skins.button.ButtonTransparentSkin" x="248" y="180"  name="btn_top_2" label="中级"/>
+	<Game:ButtonTypePlus id="btn_top_3" skinName="skins.button.ButtonTransparentSkin" x="455" y="180"  name="btn_top_3" label="高级"/>
+	<Game:ButtonTypePlus id="btn_down_1" x="100" skinName="skins.button.ButtonTransparent2Skin"  name="btn_down_1" label="六人场" y="821"/>
+	<Game:ButtonTypePlus id="btn_down_2" x="352" skinName="skins.button.ButtonTransparent2Skin"  name="btn_down_2" label="九人场" y="821"/>
+</e:Skin>

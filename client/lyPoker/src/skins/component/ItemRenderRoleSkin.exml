@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="132" height="121" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="left"/>
+		<e:State name="up"/>
+		<e:State name="right"/>
+		<e:State name="down"/>
+	</e:states>
+	<e:UIAsset id="UIA_head_bg" source="ly_table_head_bg_small_png" horizontalCenter="0" y="6"/>
+	<e:UIAsset id="UIA_role" name="UIA_role" source="ly_table_head_small_png" x="15" y="47"/>
+	<e:Label id="label_status" text="爱丽丝女王" size="22" textAlign="center" name="label_status" stroke="1" textColor="0x14A1F3" fontFamily="微软雅黑" horizontalCenter="0" top="10"/>
+	<e:Label id="label_coin" text="2234134" width="66" textAlign="center" name="label_coin" size="14" height="20" horizontalCenter="34" y="46" textColor="0x14A1F3" fontFamily="微软雅黑"/>
+	<e:Group id="group_card" height="60" width="59" name="group_card" x="71" verticalCenter="25.5">
+		<e:UIAsset source="ly_table_poker_bg_png" y="8"/>
+	</e:Group>
+	<e:UIAsset id="UIA_bet" y="50" textAlign="center" source="ly_table_blue_chip_png" x="-113" x.up="11" y.up="-36" x.down="11" y.right="117" y.left="117" x.left="-89" x.right="103" y.down="117"/>
+	<e:Label id="label_bet_num" text="123123" size="16" width="79" width.up="79" textAlign.up="center" width.left="76" textAlign.left="center" width.right="76" textAlign.right="center" textAlign="center" name="label_bet_num" x="-88" x.up="33" x.down="36" x.left="-63" x.right="130" y="58" y.left="124" y.up="-29" y.right="124" y.down="124"/>
+	<e:UIAsset id="UIA_rect" source="ly_table_avatar_png" width="132" height="121" x="0" y="0"/>
+	<e:Group id="group_add" height="50" width="132" x="1" y="72" visible="false">
+		<e:UIAsset source="ly_table_bg_png" width="124" height="46" y="3" x="2"/>
+		<e:Label id="label_add" text="+123123" width="132" textAlign="center" textColor="0xFAF107" bold="true" size="22" x="-2" y="16"/>
+	</e:Group>
+	<e:Group id="group_double" height="84" width="132" x="0" y="36">
+		<e:UIAsset source="ly_dark_png" width="126" height="80" x="3" y="3"/>
+		<Game:CardNew id="cn_left" skinName="skins.component.ItemRenderCardNewSkin" scaleX="0.8" scaleY="0.8" x="2" y="2"/>
+		<Game:CardNew id="cn_right" skinName="skins.component.ItemRenderCardNewSkin" scaleY="0.8" scaleX="0.8" x="68" y="2"/>
+	</e:Group>
+</e:Skin>

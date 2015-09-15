@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="121" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<Game:ToggleSwitchPlus id="ts_left" label="切换按钮" skinName="skins.component.ToggleSwitchSkin" x="24" y="0"/>
+	<Game:ToggleSwitchPlus id="ts_mid" label="切换按钮" skinName="skins.component.ToggleSwitchSkin" x="252" y="0"/>
+	<Game:ToggleSwitchPlus id="ts_right" label="切换按钮" skinName="skins.component.ToggleSwitchSkin" x="478" y="0"/>
+</e:Skin>

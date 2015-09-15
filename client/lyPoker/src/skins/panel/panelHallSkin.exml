@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="1100" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="ly_hall_bg_jpg" x="0" y="0"/>
+	<e:Button id="btn_back" name="btn_back" label="·µ»Ø" skinName="skins.button.ButtonBackSkin" x="47" y="39"/>
+	<e:Button id="btn_agaist" name="btn_agaist" skinName="skins.button.ButtonHallChoiceSkin" verticalCenter="229.5" horizontalCenter="0" label="比赛场"/>
+	<e:Button id="btn_game" name="btn_game" skinName="skins.button.ButtonHallChoiceSkin" y="501.5" horizontalCenter="0" label="游戏场"/>
+	<e:Button id="btn_quick" name="btn_quick" verticalCenter="-160" skinName="skins.button.ButtonHallChoiceSkin" textColor="0xFFFFFF" fontFamily="΢ÈíÑźÚ" horizontalCenter="0" label="快速开局"/>
+	<e:Button id="btn_shop" label="É̳Ç" name="btn_shop" skinName="skins.button.ButtonShopSkin" x="60" y="982"/>
+	<e:Button id="btn_task" label="ÈÎÎñ" name="btn_task" skinName="skins.button.ButtonTaskSkin" x="234" y="979"/>
+	<e:Button id="btn_social" label="É罻" name="btn_social" skinName="skins.button.ButtonFriendSkin" x="411" y="979"/>
+	<e:Button id="btn_help" label="°ïÖú" name="btn_help" skinName="skins.button.ButtonHelpSkin" y="979" x="588"/>
+	<e:Group height="159" width="271" x="424" y="23">
+		<e:UIAsset source="ly_hall_head_bg_png" x="0" y="0"/>
+		<e:UIAsset id="UIA_role" name="UIA_role" x="35" y="74" source="ly_table_head_big_png"/>
+		<e:Label id="label_lv" text="Lv.66" width="75" name="label_lv" size="18" textAlign="center" verticalAlign="middle" height="25" y="29" x="179" fontFamily="微软雅黑"/>
+		<e:Label id="label_name" width="146" name="label_name" x="109" size="22" textAlign="center" verticalAlign="middle" y="64" text="啊啊啊啊啊" fontFamily="微软雅黑"/>
+		<e:Label id="label_coin" width="104" name="label_coin" x="144" text="13234323" size="18" verticalAlign="middle" height="25" y="93" fontFamily="微软雅黑"/>
+		<e:Label id="label_diamond" width="104" name="label_coin" size="18" text="132343234" x="144" textAlign="left" height="25" verticalAlign="middle" y="118" fontFamily="微软雅黑"/>
+	</e:Group>
+</e:Skin>

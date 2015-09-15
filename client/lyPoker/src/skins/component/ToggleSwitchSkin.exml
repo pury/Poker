@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.ToggleSwitch" />
+	<e:states>
+		<e:State name="up" />
+		<e:State name="down" />
+		<e:State name="disabled" />
+		<e:State name="upAndSelected" />
+		<e:State name="downAndSelected" />
+		<e:State name="disabledAndSelected" />
+	</e:states>
+	<e:UIAsset visible="true" visible.down="true" visible.disabled="true" visible.up="true" source="ly_table_radio_selected_png"/>
+	
+	<e:UIAsset visible="false" visible.downAndSelected="true" visible.disabledAndSelected="true" visible.upAndSelected="true" source="ly_table_radio_normal_png"/>
+	<e:Label id="label_name" text="跟任何注" width="204" size="30" textAlign="center" horizontalCenter="5" verticalCenter="0" fontFamily="微软雅黑"/>
+</e:Skin>

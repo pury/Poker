@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="1100" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:UIAsset source="ly_hall_bg_jpg" x="0" y="0"/>
+	<e:Button id="btn_back" label="返回" name="btn_back" skinName="skins.button.ButtonBackSkin" x="47" y="39"/>
+	<e:UIAsset source="ly_shop_4_png" horizontalCenter="0" y="151"/>
+	<e:List id="list_shop" horizontalCenter="2" y="360" itemRendererSkinName="skins.component.ItemRendererFastChargeListSkin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="12"/>
+		</e:layout>
+	</e:List>
+	<e:List id="list_diamond" horizontalCenter="2" y="360" itemRendererSkinName="skins.component.ItemRendererDiamondListSkin">
+		<e:layout>
+			<e:VerticalLayout gap="12"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:TabBar id="tb_buy" itemRendererSkinName="skins.component.TabBarButtonShopSkin" skinName="skins.simple.TabBarSkin" horizontalCenter="-4" y="142">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="购买钻石"/>
+				<e:Object label="兑换筹码"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="-20"/>
+		</e:layout>
+	</e:TabBar>
+	<e:Label id="label_diamond" text="1111111111" x="162" y="285" width="190" fontFamily="微软雅黑"/>
+	<e:Label id="label_coin" text="12312333333" x="408" y="285" fontFamily="微软雅黑" width="205"/>
+	<e:UIAsset source="ly_shop_3_png" x="365" y="284"/>
+	<e:UIAsset source="ly_shop_6_png" x="122" y="284"/>
+</e:Skin>

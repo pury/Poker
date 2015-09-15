@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"
+        minWidth="140" width="267" height="118">
+	<w:HostComponent name="egret.gui.TabBarButton" />
+	<e:states>
+		<e:State name="up" />
+		<e:State name="down" />
+		<e:State name="disabled" />
+		<e:State name="upAndSelected"/>
+		<e:State name="downAndSelected"/>
+		<e:State name="disabledAndSelected"/>
+	</e:states>
+	<e:UIAsset width="100%" height="100%"
+	          
+	            source="ly_shop_5_png" source.upAndSelected="ly_shop_5_png" source.downAndSelected="ly_shop_5_png" source.disabledAndSelected="ly_shop_5_png" source.down="ly_shop_5_png" source.disabled="ly_shop_5_png" includeIn="upAndSelected,downAndSelected,disabledAndSelected"/>
+	<e:Label id="labelDisplay" verticalAlign="middle"
+	         textAlign="center"
+	         left="10" right="10" top="8" bottom="12" text="购买钻石" textColor="0xFFFFFF" fontFamily="微软雅黑" size="30"/>
+</e:Skin>

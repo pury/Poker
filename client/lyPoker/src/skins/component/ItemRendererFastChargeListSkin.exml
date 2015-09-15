@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"
+        height="89" width="508">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+    <e:Rect width="100%" height="0.5" fillColor="0x888888" bottom="0"/>
+	<e:UIAsset source="ly_shop_7_png" x="0" y="1"/>
+	<e:UIAsset id="UIA_type" source="ly_shop_3_png" x="266" y="27"/>
+	<e:Button id="btn_charge" y="0" skinName="skins.button.ButtonShopBuySkin" x="338" label="兑换"/>
+	<e:Label id="label_left" fontFamily="微软雅黑" textColor="0x17B9FF" width="68" textAlign="center" y="33" text="1000" x="28" size="26"/>
+	<e:Label id="label_equal" textColor="0x17B9FF" fontFamily="微软雅黑" size="22" text="=" width="18" y="31" x="145"/>
+	<e:Label id="label_mid" textColor="0x17B9FF" fontFamily="微软雅黑" width="80" y="33" x="181" text="100万" height="34" textAlign="center" size="26"/>
+	<e:UIAsset source="ly_shop_6_png" x="100" y="27"/>
+</e:Skin>

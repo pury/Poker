@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"
+        minWidth="13" minHeight="13" height="429">
+    <w:HostComponent name="egret.gui.VSlider" />
+    <e:states>
+        <e:State name="normal" />
+        <e:State name="disabled" />
+    </e:states>
+	<e:UIAsset source="ly_table_scrollbarbg_png" horizontalCenter="0" y="-80"/>
+    <e:UIAsset id="track" source="ly_table_scrollbar_png"
+                 horizontalCenter="-1" verticalCenter="0.5"/>
+    <e:UIAsset id="trackHighlight" source=""
+               width="10" horizontalCenter="0"  visible="false"/>
+	<e:UIAsset id="UIA_light" source="ly_table_scrollbar_light_png" enabled="false" width="30" height="410" x="44" y="20"/>
+    <e:Button id="thumb"  skinName="skins.component.VSliderThumbSkin" 
+               y="113" horizontalCenter="0"/>
+	<e:Label id="label_num" text="0" textAlign="center" width="81" size="22" horizontalCenter="0.5" y="-39"/>
+</e:Skin>

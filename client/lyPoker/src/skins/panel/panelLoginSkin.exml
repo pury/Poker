@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="1100" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="login"/>
+		<e:State name="register"/>
+	</e:states>
+	<e:UIAsset source="ly_login_bg_jpg" x="0" y="0" name="UIA_bg"/>
+	<e:Button id="btn_login" name="btn_login" skinName="skins.button.ButtonLoginSkin" fontFamily="微软雅黑" includeIn="login" x="383" y="645" label="登录"/>
+	<e:Button id="btn_go_register" name="btn_go_register" skinName="skins.button.ButtonLoginSkin" label="注册/找回密码" includeIn="login" x="108" y="645"/>
+	<e:Label id="label_version" text="version:0.0.1" size="24" name="label_version" y="1069" horizontalCenter="11" textAlign="center" width="190"/>
+	<e:TextInput id="ti_ip" text="192.168.4.206" textAlign="center" bottom="1054" x="537"/>
+	<e:Label id="label_ip" bottom="1056" x="487" text="IP:"/>
+	<e:UIAsset source="ly_login_poker_logo_png" y="153" horizontalCenter="0" name="UIA_logo"/>
+	<e:UIAsset source="ly_leyan_logo_png" y="1002" horizontalCenter="0.5"  name="UIA_ly_logo"/>
+	<e:Button id="btn_sendauth"  skinName="skins.button.ButtonLoginSkin" label="发送验证码" includeIn="register" x="378" name="btn_sendauth" y="510"/>
+	<e:Button id="btn_register" skinName="skins.button.ButtonLoginSkin" label="注册" includeIn="register" x="383" name="btn_register" y="770"/>
+	<e:Button id="btn_back" skinName="skins.button.ButtonLoginSkin" label="返回" includeIn="register" x="108" name="btn_back" y="770"/>
+	<e:TextInput id="ti_phone" includeIn="register" skinName="skins.component.TextInputSkin" text="请输入手机号" textAlign="center" x="110" name="ti_phone" y="384"/>
+	<e:TextInput id="ti_auth" skinName="skins.component.TextInputSmallSkin" includeIn="register" textAlign="center" x="110" name="ti_auth" y="513"/>
+	<e:TextInput id="ti_reg_pwd" skinName="skins.component.TextInputSkin" text.register="请输入密码" textAlign.register="center" includeIn="register" name="ti_reg_pwd" horizontalCenter="0" y="644"/>
+	<e:TextInput id="ti_reg_pwd_again" skinName="skins.component.TextInputSkin" y="715" text.register="请重复密码" textAlign.register="center" includeIn="register" horizontalCenter="0" name="ti_reg_pwd_again" visible="false"/>
+	<e:TextInput id="ti_pwd" name="ti_pwd" restrict="0-9" displayAsPassword="false" text="请输入密码" skinName="skins.component.TextInputSkin" textAlign="center" includeIn="login" horizontalCenter="0" y="513"/>
+	<e:TextInput id="ti_name" name="ti_name" text="请输入账号" skinName="skins.component.TextInputSkin" horizontalCenter="0" textAlign="center" includeIn="login" y="384"/>
+</e:Skin>

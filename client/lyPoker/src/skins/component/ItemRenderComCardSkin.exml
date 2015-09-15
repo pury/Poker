@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="422" height="104" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:Game="Game.*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<Game:CardNew id="card1" skinName="skins.component.ItemRenderCardNewSkin" y="0"/>
+	<Game:CardNew id="card2" skinName="skins.component.ItemRenderCardNewSkin" x="86" y="0"/>
+	<Game:CardNew id="card3" skinName="skins.component.ItemRenderCardNewSkin" x="172" y="0"/>
+	<Game:CardNew id="card4" skinName="skins.component.ItemRenderCardNewSkin" x="258" y="0"/>
+	<Game:CardNew id="card5" skinName="skins.component.ItemRenderCardNewSkin" y="0" x="344"/>
+</e:Skin>

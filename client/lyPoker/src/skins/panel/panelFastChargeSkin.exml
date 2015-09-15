@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="1100" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="ly_dark_png" x="0" y="0" width="720" height="1100"/>
+	<e:UIAsset source="ly_shop_8_png" x="10" horizontalCenter="0" y="113"/>
+	<e:List id="list_charge" x="10" horizontalCenter="0" y="350" itemRendererSkinName="skins.component.ItemRendererFastChargeListSkin">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="12"/>
+		</e:layout>
+	</e:List>
+	<e:Label fontFamily="微软雅黑" x="10" horizontalCenter="0.5" y="162" text="提示"/>
+	<e:Button label="返回" skinName="skins.button.ButtonFastBackSkin" id="btn_back" x="10" horizontalCenter="0.5" y="762"/>
+	<e:Label text="您现有筹码已不足，请兑换筹码:" y="224" fontFamily="微软雅黑" size="26" horizontalCenter="0"/>
+	<e:Label text="当前钻石:" x="209" size="26" fontFamily="微软雅黑" y="269"/>
+	<e:Label id="label_diamond" size="26" fontFamily="微软雅黑" x="372" width="151" text="234234234" y="270"/>
+	<e:Label id="label_coin" size="26" fontFamily="微软雅黑" x="372" width="148" text="23423424" y="309"/>
+	<e:Label size="26" x="209" text="当前筹码:" fontFamily="微软雅黑" y="309"/>
+	<e:UIAsset source="ly_shop_3_png" x="329" y="306"/>
+	<e:UIAsset source="ly_shop_6_png" x="329" y="263"/>
+	<e:Button id="btn_buy" label="按钮" x="546" y="265" skinName="skins.button.ButtonPlusSkin"/>
+</e:Skin>

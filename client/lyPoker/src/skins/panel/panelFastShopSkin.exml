@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="720" height="1100" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="ly_dark_png" x="0" y="0" width="720" height="1100"/>
+	<e:UIAsset source="ly_shop_8_png" y="113" horizontalCenter="0"/>
+	<e:List itemRendererSkinName="skins.component.ItemRendererShopListSkin" id="list_shop" y="305" horizontalCenter="0">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+				<e:Object label="购买"/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="12"/>
+		</e:layout>
+	</e:List>
+	<e:Label text="商城" y="162" horizontalCenter="0.5" fontFamily="微软雅黑"/>
+	<e:Button id="btn_back" y="704" skinName="skins.button.ButtonFastBackSkin" label="返回" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing"
+        height="89" width="508">
+	<w:HostComponent name="egret.gui.ItemRenderer"/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+    <e:Rect width="100%" height="0.5" fillColor="0x888888" bottom="0"/>
+	<e:UIAsset source="ly_shop_7_png" x="0" y="1"/>
+	<e:UIAsset id="UIA_typeTo" y="29" x="155" source="ly_shop_6_png"/>
+	<e:UIAsset id="UIA_typeGive" y="29" x="276" source="ly_shop_6_png"/>
+	<e:Button id="btn_buy" y="0" skinName="skins.button.ButtonShopBuySkin" label="购买" x="338"/>
+	<e:Label id="label_left" size="22" fontFamily="微软雅黑" textColor="0x17B9FF" width="68" text="￥500" textAlign="center" y="33" x="13"/>
+	<e:Label id="label_equal" textColor="0x17B9FF" fontFamily="微软雅黑" size="22" text="=" width="18" y="31" x="80"/>
+	<e:Label id="label_mid" textColor="0x17B9FF" fontFamily="微软雅黑" size="22" width="60" text="2500" y="33" x="99"/>
+	<e:Label id="label_right" fontFamily="微软雅黑" width="88" size="22" text="送 3500" textColor="0x97DAF7" verticalAlign="middle" y="33" x="190"/>
+</e:Skin>
